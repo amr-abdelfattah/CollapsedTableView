@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CollapsedTableView_Example' do
+  pod 'CollapsedTableView', :path => '../'
+
+  target 'CollapsedTableView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
