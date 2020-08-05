@@ -1,0 +1,27 @@
+PODS:
+  - CollapsedTableView (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CollapsedTableView (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CollapsedTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CollapsedTableView: cedf3693f70a59481fb11d5acfbca9a403b8830d
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 697233d021c4a929100a5fb24aaced177171bde5
+
+COCOAPODS: 1.9.3

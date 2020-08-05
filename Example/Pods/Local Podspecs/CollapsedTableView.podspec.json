@@ -1,0 +1,24 @@
+{
+  "name": "CollapsedTableView",
+  "version": "0.1.0",
+  "summary": "A short description of CollapsedTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/amr-abdelfattah/CollapsedTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "amr-abdelfattah": "amrelsayed.mohamed@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/amr-abdelfattah/CollapsedTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "CollapsedTableView/Classes/**/*",
+  "swift_version": "4.2"
+}

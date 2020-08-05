@@ -14,6 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		81D20C5CCA67D71EAA463903 /* Pods_CollapsedTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679E961617A8C78FB7DAEB67 /* Pods_CollapsedTableView_Example.framework */; };
+		84E0594924D32C890022C4E3 /* CollapsedTableRowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0594824D32C890022C4E3 /* CollapsedTableRowData.swift */; };
+		84E0594B24D3323A0022C4E3 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0594A24D3323A0022C4E3 /* DataStore.swift */; };
 		C53D5E6C135D1B15BC159BB9 /* Pods_CollapsedTableView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2AB4D9D5E6ECE3DECEF15F /* Pods_CollapsedTableView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +32,8 @@
 /* Begin PBXFileReference section */
 		05786CD7F575A3891BB49AEB /* Pods-CollapsedTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsedTableView_Example.debug.xcconfig"; path = "Target Support Files/Pods-CollapsedTableView_Example/Pods-CollapsedTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		18B12695BFC445373B7F20F9 /* Pods-CollapsedTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsedTableView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CollapsedTableView_Tests/Pods-CollapsedTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1B9FA2B3BB40166FAE59ABCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		60472A38B72F7EE30325C8CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1B9FA2B3BB40166FAE59ABCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		60472A38B72F7EE30325C8CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CollapsedTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsedTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +45,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		679E961617A8C78FB7DAEB67 /* Pods_CollapsedTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsedTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E0594824D32C890022C4E3 /* CollapsedTableRowData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsedTableRowData.swift; sourceTree = "<group>"; };
+		84E0594A24D3323A0022C4E3 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		C464F756602CB49FD10C9E51 /* Pods-CollapsedTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsedTableView_Example.release.xcconfig"; path = "Target Support Files/Pods-CollapsedTableView_Example/Pods-CollapsedTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE7EA423C2B6A2A5C9468C78 /* Pods-CollapsedTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsedTableView_Tests.release.xcconfig"; path = "Target Support Files/Pods-CollapsedTableView_Tests/Pods-CollapsedTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE2AB4D9D5E6ECE3DECEF15F /* Pods_CollapsedTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsedTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB5C3D497CBDE67D85A26959 /* CollapsedTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CollapsedTableView.podspec; path = ../CollapsedTableView.podspec; sourceTree = "<group>"; };
+		FB5C3D497CBDE67D85A26959 /* CollapsedTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CollapsedTableView.podspec; path = ../CollapsedTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				84E0594824D32C890022C4E3 /* CollapsedTableRowData.swift */,
+				84E0594A24D3323A0022C4E3 /* DataStore.swift */,
 			);
 			name = "Example for CollapsedTableView";
 			path = CollapsedTableView;
@@ -147,7 +153,6 @@
 				18B12695BFC445373B7F20F9 /* Pods-CollapsedTableView_Tests.debug.xcconfig */,
 				CE7EA423C2B6A2A5C9468C78 /* Pods-CollapsedTableView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +176,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				F38E0F1C6C7CBC2407D24837 /* [CP] Embed Pods Frameworks */,
+				39785391C6EB0DE182C82096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +233,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -281,6 +287,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollapsedTableView_Tests/Pods-CollapsedTableView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		39785391C6EB0DE182C82096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollapsedTableView_Example/Pods-CollapsedTableView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CollapsedTableView/CollapsedTableView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollapsedTableView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollapsedTableView_Example/Pods-CollapsedTableView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A508BA8C4A4A280184788666 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,24 +349,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F38E0F1C6C7CBC2407D24837 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CollapsedTableView_Example/Pods-CollapsedTableView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CollapsedTableView/CollapsedTableView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollapsedTableView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollapsedTableView_Example/Pods-CollapsedTableView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -350,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E0594924D32C890022C4E3 /* CollapsedTableRowData.swift in Sources */,
+				84E0594B24D3323A0022C4E3 /* DataStore.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -438,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -498,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollapsedTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -513,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollapsedTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

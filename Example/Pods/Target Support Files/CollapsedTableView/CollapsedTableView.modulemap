@@ -1,0 +1,6 @@
+framework module CollapsedTableView {
+  umbrella header "CollapsedTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

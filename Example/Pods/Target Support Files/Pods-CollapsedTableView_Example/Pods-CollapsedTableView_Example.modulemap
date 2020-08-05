@@ -1,0 +1,6 @@
+framework module Pods_CollapsedTableView_Example {
+  umbrella header "Pods-CollapsedTableView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
