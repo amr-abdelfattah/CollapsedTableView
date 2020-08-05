@@ -8,7 +8,11 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/amr-abdelfattah/CollapsedTableView'
-   s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+   s.screenshots     = 'https://github.com/amr-abdelfattah/CollapsedTableView/tree/master/Screenshots/1.png', 'https://github.com/amr-abdelfattah/CollapsedTableView/tree/master/Screenshots/2.png',
+   'https://github.com/amr-abdelfattah/CollapsedTableView/tree/master/Screenshots/3.png',
+   'https://github.com/amr-abdelfattah/CollapsedTableView/tree/master/Screenshots/4.png',
+   'https://github.com/amr-abdelfattah/CollapsedTableView/tree/master/Screenshots/5.png',
+   'https://github.com/amr-abdelfattah/CollapsedTableView/tree/master/Screenshots/demo.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'amr-abdelfattah' => 'amrelsayed.mohamed@gmail.com' }
   s.source           = { :git => 'https://github.com/amr-abdelfattah/CollapsedTableView.git', :tag => s.version.to_s }
