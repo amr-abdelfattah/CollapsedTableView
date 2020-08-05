@@ -5,12 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/CollapsedTableView.svg?style=flat)](https://cocoapods.org/pods/CollapsedTableView)
 [![Platform](https://img.shields.io/cocoapods/p/CollapsedTableView.svg?style=flat)](https://cocoapods.org/pods/CollapsedTableView)
 
-![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/1.png=315*655)
-![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/2.png)
-![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/3.png)
-![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/4.png)
-![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/5.png)
-![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/demo.gif)
+<img src="https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/1.png" width="315" height="655">
+<img src="https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/2.png" width="315" height="655">
+<img src="https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/3.png" width="315" height="655">
+<img src="https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/4.png" width="315" height="655">
+<img src="https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/5.png" width="315" height="655">
+<img src="https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/demo.gif" width="315" height="655">
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
