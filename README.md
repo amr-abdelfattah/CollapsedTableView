@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/CollapsedTableView.svg?style=flat)](https://cocoapods.org/pods/CollapsedTableView)
 [![Platform](https://img.shields.io/cocoapods/p/CollapsedTableView.svg?style=flat)](https://cocoapods.org/pods/CollapsedTableView)
 
-![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/1.png)
+![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/1.png=315x655)
 ![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/2.png)
 ![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/3.png)
 ![Screenshot](https://raw.githubusercontent.com/amr-abdelfattah/CollapsedTableView/master/Screenshots/4.png)
